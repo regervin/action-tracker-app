@@ -9,21 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.1",
-    "tailwindcss": "^3.4.1",
-    "@tailwindcss/forms": "^0.5.7",
-    "jspdf": "^2.5.1",
-    "jszip": "^3.10.1"
+    "react-icons": "^4.8.0",
+    "pdfmake": "^0.2.7",
+    "html-to-pdfmake": "^2.4.16",
+    "@xmldom/xmldom": "^0.8.8",
+    "file-saver": "^2.0.5"
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.33",
-    "vite": "^5.0.8"
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.2.0"
   }
 }
