@@ -1,15 +1,14 @@
-export interface ActionItem {
-      id: string;
-      action: string;
-      how: string;
-      who: string;
-      when: string;
-      done: boolean;
-    }
+export interface FormHeader {
+  department: string;
+  responsiblePerson: string;
+  date: string;
+}
 
-    export interface AppData {
-      department: string;
-      responsiblePerson: string;
-      date: string;
-      actions: ActionItem[];
-    }
+export interface ActionItem {
+  id: string;
+  action: string;
+  accomplishment: string;
+  assignee: string;
+  dueDate: string;
+  completed: boolean;
+}

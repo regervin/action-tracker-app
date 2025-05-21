@@ -2,21 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@media print {
-  body {
-    background-color: white;
-  }
-  
-  .print\:hidden {
-    display: none;
-  }
-  
-  input, textarea {
-    border: none !important;
-    padding: 0 !important;
-  }
-  
-  .shadow-md {
-    box-shadow: none !important;
+@layer base {
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    @apply border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500;
   }
 }
